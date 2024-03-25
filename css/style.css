@@ -1,0 +1,52 @@
+body{
+    background-color: #221B4A;
+
+}
+
+
+.musicas{
+    display: inline-block;
+
+}
+
+.musica{
+    text-align: center;
+    background-color:#5140B1;
+    display: inline-block;
+    border-radius: 15px;
+    width:190px;
+    height: 255px;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 11px 14px 15px 5px rgba(0,0,0,0.1);
+
+}
+.musicPlayer{
+    text-align: center;
+    background-color:#5140B1;
+    display: inline-block;
+    border-radius: 15px;
+    width: 230px;
+    height: 370px;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 11px 14px 15px 5px rgba(0,0,0,0.1);
+
+}
+i{
+    text-align: center;
+
+}
+button{
+    background: none;
+    border: none;
+    background-color:#644FDB ;
+    border-radius: 12px;
+    height: 37px;
+    width: 34px;
+}
+
+h3, p{
+
+    color: #e7c4fe;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/play-pause.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/play-button.css' rel='stylesheet'>    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="musicPlayer">
+            <img id="currCoverArt" src="https://tatinhoo.github.io/lsmp/img/participantes/eh.png" height="190px" alt="">
+            <h3 id="currMusic"><b>Nenhuma música</b></h3>
+            <p id="currArtist">null</p>
+            <audio id="musica" src="" >
+
+            </audio>
+            <input id="progress" onchange="mudarProgressbar()" type="range" >
+            <input id="volumeBar" onchange="mudarVolumebar()" type="range" >
+            <div class="musicControl">
+                <button onclick="playsong()" id="playBtn"><i id="iconBtnPlay" class="gg-play-button"></i></i>
+                </button>
+                
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <div class="musicas">
+        <div class="musica">
+            <img onclick="trocarMusica('oTatinho','Truco no Aquário','truco', 'truco')" src="img/truco.png" height="190px">
+            <h3>Truco no Aquário</h3>
+            <p>oTatinho</p>
+
+        </div>
+        <div class="musica">
+            <img onclick="trocarMusica('oTatinho','Nostalgia','nostalgia','nostalgia')" src="img/nostalgia.png" height="190px">
+            <h3>Nostalgia</h3>
+            <p>oTatinho</p>
+
+        </div>
+        <div class="musica">
+            <img onclick="trocarMusica('CorruptedTatinho','Dormindo em Call','dormindoemcall','dormindoemcall')" src="img/dormindoemcall.png" height="190px">
+            <h3>Dormindo em Call</h3>
+            <p>CorruptedTatinho</p>
+
+        </div>
+     </div>
+
+
+
+    <script src="js/musicplayer.js"></script>
+</body>
+</html>
